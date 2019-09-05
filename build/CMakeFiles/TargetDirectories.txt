@@ -1,3 +1,0 @@
-C:/Users/andre/Desktop/CppProva/build/CMakeFiles/rebuild_cache.dir
-C:/Users/andre/Desktop/CppProva/build/CMakeFiles/Test.dir
-C:/Users/andre/Desktop/CppProva/build/CMakeFiles/edit_cache.dir
