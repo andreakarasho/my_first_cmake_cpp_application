@@ -7,7 +7,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/andre/Desktop/CppProva/src/Objects/baseobject.cpp" "C:/Users/andre/Desktop/CppProva/build/CMakeFiles/Test.dir/src/Objects/baseobject.cpp.obj"
   "C:/Users/andre/Desktop/CppProva/src/main.cpp" "C:/Users/andre/Desktop/CppProva/build/CMakeFiles/Test.dir/src/main.cpp.obj"
   )
-set(CMAKE_CXX_COMPILER_ID "MSVC")
+set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
