@@ -1,0 +1,10 @@
+^C:\USERS\ANDRE\DESKTOP\CPPPROVA\BUILD\CMAKEFILES\4098E386F49EA51AA00054B2C96F378B\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/andre/Desktop/CppProva -BC:/Users/andre/Desktop/CppProva/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/andre/Desktop/CppProva/build/Test.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

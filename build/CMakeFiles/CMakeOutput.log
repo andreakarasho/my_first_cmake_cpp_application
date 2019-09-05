@@ -95,3 +95,247 @@ Linking CXX executable cmTC_4a36b.exe
 
 
 
+The system is: Windows - 10.0.18362 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) Build Engine versione 16.2.37902+b5aaefc9f per .NET Framework
+Copyright (C) Microsoft Corporation. Tutti i diritti sono riservati.
+
+Compilazione avviata 05/09/2019 21:49:55.
+Progetto "C:\Users\andre\Desktop\CppProva\build\CMakeFiles\3.15.3\CompilerIdC\CompilerIdC.vcxproj" sul nodo 1 (destinazioni predefinite).
+PrepareForBuild:
+  Creazione directory "Debug\".
+  Creazione directory "Debug\CompilerIdC.tlog\".
+InitializeBuildStatus:
+  Creazione di "Debug\CompilerIdC.tlog\unsuccessfulbuild". È stato specificato "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\bin\HostX64\x64\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc142.pdb" /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X64 Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> C:\Users\andre\Desktop\CppProva\build\CMakeFiles\3.15.3\CompilerIdC\.\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\bin\Hostx64\x64\cl.exe
+FinalizeBuildStatus:
+  Eliminazione del file "Debug\CompilerIdC.tlog\unsuccessfulbuild" in corso.
+  Aggiornamento timestamp di "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
+Compilazione progetto "C:\Users\andre\Desktop\CppProva\build\CMakeFiles\3.15.3\CompilerIdC\CompilerIdC.vcxproj" (destinazioni predefinite) completata.
+
+Compilazione completata.
+    Avvisi: 0
+    Errori: 0
+
+Tempo trascorso 00:00:02.89
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "C:/Users/andre/Desktop/CppProva/build/CMakeFiles/3.15.3/CompilerIdC/CompilerIdC.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) Build Engine versione 16.2.37902+b5aaefc9f per .NET Framework
+Copyright (C) Microsoft Corporation. Tutti i diritti sono riservati.
+
+Compilazione avviata 05/09/2019 21:49:58.
+Progetto "C:\Users\andre\Desktop\CppProva\build\CMakeFiles\3.15.3\CompilerIdCXX\CompilerIdCXX.vcxproj" sul nodo 1 (destinazioni predefinite).
+PrepareForBuild:
+  Creazione directory "Debug\".
+  Creazione directory "Debug\CompilerIdCXX.tlog\".
+InitializeBuildStatus:
+  Creazione di "Debug\CompilerIdCXX.tlog\unsuccessfulbuild". È stato specificato "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\bin\HostX64\x64\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc142.pdb" /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X64 Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> C:\Users\andre\Desktop\CppProva\build\CMakeFiles\3.15.3\CompilerIdCXX\.\CompilerIdCXX.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\bin\Hostx64\x64\cl.exe
+FinalizeBuildStatus:
+  Eliminazione del file "Debug\CompilerIdCXX.tlog\unsuccessfulbuild" in corso.
+  Aggiornamento timestamp di "Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate".
+Compilazione progetto "C:\Users\andre\Desktop\CppProva\build\CMakeFiles\3.15.3\CompilerIdCXX\CompilerIdCXX.vcxproj" (destinazioni predefinite) completata.
+
+Compilazione completata.
+    Avvisi: 0
+    Errori: 0
+
+Tempo trascorso 00:00:02.55
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "C:/Users/andre/Desktop/CppProva/build/CMakeFiles/3.15.3/CompilerIdCXX/CompilerIdCXX.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: C:/Users/andre/Desktop/CppProva/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_ba726.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine versione 16.2.37902+b5aaefc9f per .NET Framework
+Copyright (C) Microsoft Corporation. Tutti i diritti sono riservati.
+
+  Microsoft (R) C/C++ Optimizing Compiler versione 19.22.27905 per x64
+  testCCompiler.c
+  Copyright (C) Microsoft Corporation. Tutti i diritti  sono riservati.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ba726.dir\Debug\\" /Fd"cmTC_ba726.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue C:\Users\andre\Desktop\CppProva\build\CMakeFiles\CMakeTmp\testCCompiler.c
+  cmTC_ba726.vcxproj -> C:\Users\andre\Desktop\CppProva\build\CMakeFiles\CMakeTmp\Debug\cmTC_ba726.exe
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Users/andre/Desktop/CppProva/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_07aec.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine versione 16.2.37902+b5aaefc9f per .NET Framework
+Copyright (C) Microsoft Corporation. Tutti i diritti sono riservati.
+
+  Microsoft (R) C/C++ Optimizing Compiler versione 19.22.27905 per x64
+  CMakeCCompilerABI.c
+  Copyright (C) Microsoft Corporation. Tutti i diritti  sono riservati.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_07aec.dir\Debug\\" /Fd"cmTC_07aec.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCCompilerABI.c"
+  cmTC_07aec.vcxproj -> C:\Users\andre\Desktop\CppProva\build\CMakeFiles\CMakeTmp\Debug\cmTC_07aec.exe
+
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: C:/Users/andre/Desktop/CppProva/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_edeb1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine versione 16.2.37902+b5aaefc9f per .NET Framework
+Copyright (C) Microsoft Corporation. Tutti i diritti sono riservati.
+
+  Microsoft (R) C/C++ Optimizing Compiler versione 19.22.27905 per x64
+  testCXXCompiler.cxx
+  Copyright (C) Microsoft Corporation. Tutti i diritti  sono riservati.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_edeb1.dir\Debug\\" /Fd"cmTC_edeb1.dir\Debug\vc142.pdb" /Gd /TP /errorReport:queue C:\Users\andre\Desktop\CppProva\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+  cmTC_edeb1.vcxproj -> C:\Users\andre\Desktop\CppProva\build\CMakeFiles\CMakeTmp\Debug\cmTC_edeb1.exe
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/Users/andre/Desktop/CppProva/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_da992.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine versione 16.2.37902+b5aaefc9f per .NET Framework
+Copyright (C) Microsoft Corporation. Tutti i diritti sono riservati.
+
+  Microsoft (R) C/C++ Optimizing Compiler versione 19.22.27905 per x64
+  CMakeCXXCompilerABI.cpp
+  Copyright (C) Microsoft Corporation. Tutti i diritti  sono riservati.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_da992.dir\Debug\\" /Fd"cmTC_da992.dir\Debug\vc142.pdb" /Gd /TP /errorReport:queue "C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCXXCompilerABI.cpp"
+  cmTC_da992.vcxproj -> C:\Users\andre\Desktop\CppProva\build\CMakeFiles\CMakeTmp\Debug\cmTC_da992.exe
+
+
+
+The system is: Windows - 10.0.18362 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.22.27905/bin/Hostx86/x64/cl.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) C/C++ Optimizing Compiler versione 19.22.27905 per x64
+Copyright (C) Microsoft Corporation. Tutti i diritti  sono riservati.
+
+CMakeCCompilerId.c
+Microsoft (R) Incremental Linker Version 14.22.27905.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:CMakeCCompilerId.exe 
+CMakeCCompilerId.obj 
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
+
+The C compiler identification is MSVC, found in "C:/Users/andre/Desktop/CppProva/build/CMakeFiles/3.15.3/CompilerIdC/CMakeCCompilerId.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.22.27905/bin/Hostx86/x64/cl.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) C/C++ Optimizing Compiler versione 19.22.27905 per x64
+Copyright (C) Microsoft Corporation. Tutti i diritti  sono riservati.
+
+CMakeCXXCompilerId.cpp
+Microsoft (R) Incremental Linker Version 14.22.27905.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:CMakeCXXCompilerId.exe 
+CMakeCXXCompilerId.obj 
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
+
+The CXX compiler identification is MSVC, found in "C:/Users/andre/Desktop/CppProva/build/CMakeFiles/3.15.3/CompilerIdCXX/CMakeCXXCompilerId.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: C:/Users/andre/Desktop/CppProva/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake /nologo cmTC_07d17\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\bin\HostX86\x64\nmake.exe" -f CMakeFiles\cmTC_07d17.dir\build.make /nologo -L                  CMakeFiles\cmTC_07d17.dir\build
+Building C object CMakeFiles/cmTC_07d17.dir/testCCompiler.c.obj
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1422~1.279\bin\Hostx86\x64\cl.exe @C:\Users\andre\AppData\Local\Temp\nm50AA.tmp
+testCCompiler.c
+Linking C executable cmTC_07d17.exe
+	"C:\Program Files\CMake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_07d17.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100177~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100177~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1422~1.279\bin\Hostx86\x64\link.exe /nologo @CMakeFiles\cmTC_07d17.dir\objects1.rsp @C:\Users\andre\AppData\Local\Temp\nm51E4.tmp
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Users/andre/Desktop/CppProva/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake /nologo cmTC_8685f\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\bin\HostX86\x64\nmake.exe" -f CMakeFiles\cmTC_8685f.dir\build.make /nologo -L                  CMakeFiles\cmTC_8685f.dir\build
+Building C object CMakeFiles/cmTC_8685f.dir/CMakeCCompilerABI.c.obj
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1422~1.279\bin\Hostx86\x64\cl.exe @C:\Users\andre\AppData\Local\Temp\nm533A.tmp
+CMakeCCompilerABI.c
+Linking C executable cmTC_8685f.exe
+	"C:\Program Files\CMake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_8685f.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100177~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100177~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1422~1.279\bin\Hostx86\x64\link.exe /nologo @CMakeFiles\cmTC_8685f.dir\objects1.rsp @C:\Users\andre\AppData\Local\Temp\nm537A.tmp
+
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: C:/Users/andre/Desktop/CppProva/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake /nologo cmTC_12fcf\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\bin\HostX86\x64\nmake.exe" -f CMakeFiles\cmTC_12fcf.dir\build.make /nologo -L                  CMakeFiles\cmTC_12fcf.dir\build
+Building CXX object CMakeFiles/cmTC_12fcf.dir/testCXXCompiler.cxx.obj
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1422~1.279\bin\Hostx86\x64\cl.exe @C:\Users\andre\AppData\Local\Temp\nm54F0.tmp
+testCXXCompiler.cxx
+Linking CXX executable cmTC_12fcf.exe
+	"C:\Program Files\CMake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_12fcf.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100177~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100177~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1422~1.279\bin\Hostx86\x64\link.exe /nologo @CMakeFiles\cmTC_12fcf.dir\objects1.rsp @C:\Users\andre\AppData\Local\Temp\nm552F.tmp
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/Users/andre/Desktop/CppProva/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake /nologo cmTC_26225\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\bin\HostX86\x64\nmake.exe" -f CMakeFiles\cmTC_26225.dir\build.make /nologo -L                  CMakeFiles\cmTC_26225.dir\build
+Building CXX object CMakeFiles/cmTC_26225.dir/CMakeCXXCompilerABI.cpp.obj
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1422~1.279\bin\Hostx86\x64\cl.exe @C:\Users\andre\AppData\Local\Temp\nm5686.tmp
+CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_26225.exe
+	"C:\Program Files\CMake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_26225.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100177~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100177~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1422~1.279\bin\Hostx86\x64\link.exe /nologo @CMakeFiles\cmTC_26225.dir\objects1.rsp @C:\Users\andre\AppData\Local\Temp\nm56C6.tmp
+
+
+

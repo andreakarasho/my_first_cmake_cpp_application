@@ -124,6 +124,33 @@ Test\fast:
 	$(MAKE) -f CMakeFiles\Test.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Test.dir\build
 .PHONY : Test\fast
 
+src\Objects\baseobject.obj: src\Objects\baseobject.cpp.obj
+
+.PHONY : src\Objects\baseobject.obj
+
+# target to build an object file
+src\Objects\baseobject.cpp.obj:
+	$(MAKE) -f CMakeFiles\Test.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Test.dir\src\Objects\baseobject.cpp.obj
+.PHONY : src\Objects\baseobject.cpp.obj
+
+src\Objects\baseobject.i: src\Objects\baseobject.cpp.i
+
+.PHONY : src\Objects\baseobject.i
+
+# target to preprocess a source file
+src\Objects\baseobject.cpp.i:
+	$(MAKE) -f CMakeFiles\Test.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Test.dir\src\Objects\baseobject.cpp.i
+.PHONY : src\Objects\baseobject.cpp.i
+
+src\Objects\baseobject.s: src\Objects\baseobject.cpp.s
+
+.PHONY : src\Objects\baseobject.s
+
+# target to generate assembly for a file
+src\Objects\baseobject.cpp.s:
+	$(MAKE) -f CMakeFiles\Test.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Test.dir\src\Objects\baseobject.cpp.s
+.PHONY : src\Objects\baseobject.cpp.s
+
 src\main.obj: src\main.cpp.obj
 
 .PHONY : src\main.obj
@@ -160,6 +187,9 @@ help:
 	@echo ... rebuild_cache
 	@echo ... Test
 	@echo ... edit_cache
+	@echo ... src/Objects/baseobject.obj
+	@echo ... src/Objects/baseobject.i
+	@echo ... src/Objects/baseobject.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s

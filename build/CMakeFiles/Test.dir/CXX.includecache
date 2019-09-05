@@ -6,7 +6,11 @@
 
 #IncludeRegexTransform: 
 
+C:/Users/andre/Desktop/CppProva/src/Objects/baseobject.h
+
 C:/Users/andre/Desktop/CppProva/src/main.cpp
 iostream
 -
+Objects/baseobject.h
+C:/Users/andre/Desktop/CppProva/src/Objects/baseobject.h
 

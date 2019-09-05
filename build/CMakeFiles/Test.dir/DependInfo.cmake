@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "C:/Users/andre/Desktop/CppProva/src/Objects/baseobject.cpp" "C:/Users/andre/Desktop/CppProva/build/CMakeFiles/Test.dir/src/Objects/baseobject.cpp.obj"
   "C:/Users/andre/Desktop/CppProva/src/main.cpp" "C:/Users/andre/Desktop/CppProva/build/CMakeFiles/Test.dir/src/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")
