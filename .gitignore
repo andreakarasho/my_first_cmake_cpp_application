@@ -415,4 +415,3 @@ MigrationBackup/
 
 build/*
 !build/.keep
-!SDL2/bin/
