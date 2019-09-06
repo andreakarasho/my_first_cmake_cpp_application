@@ -1,4 +1,10 @@
 #include "SDL.h"
+#ifdef IS_WINDOWS
+  #include <windows.h>
+#endif
+#include "GL/gl.h"
+#include <stdio.h>
+#include <vector>
 
 #undef main
 
@@ -9,17 +15,24 @@ int main()
     SDL_Init(SDL_INIT_VIDEO);
 
     SDL_Window *window = SDL_CreateWindow(
-      "SDL2Test",
-      SDL_WINDOWPOS_UNDEFINED,
-      SDL_WINDOWPOS_UNDEFINED,
+      "My first cpp-cmake application",
+      SDL_WINDOWPOS_CENTERED,
+      SDL_WINDOWPOS_CENTERED,
       640,
       480,
-      0
+      SDL_WINDOW_OPENGL | SDL_WINDOW_RESIZABLE
     );
 
-    SDL_Renderer *renderer = SDL_CreateRenderer(window, -1, SDL_RENDERER_SOFTWARE);
+    std::vector<int> vec;
+    vec.push_back(1);
+
+    SDL_GL_SetAttribute(SDL_GL_DOUBLEBUFFER, 1);
+
+    SDL_GLContext context = SDL_GL_CreateContext(window);
 
     bool running = true;
+
+    printf("CULO");
 
     while (running)
     {
@@ -31,9 +44,11 @@ int main()
                 running = false;
         }
 
-        SDL_SetRenderDrawColor(renderer, 0, 0, 0, SDL_ALPHA_OPAQUE);
-        SDL_RenderClear(renderer);
-        SDL_RenderPresent(renderer);
+        glClear(GL_COLOR_BUFFER_BIT);
+        glClearColor(1.0f, 0.0f, 0.0f, 1.0f);
+
+       
+        SDL_GL_SwapWindow(window);
     }
    
     SDL_DestroyWindow(window);
