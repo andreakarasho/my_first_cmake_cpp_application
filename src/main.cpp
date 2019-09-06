@@ -2,7 +2,7 @@
 #ifdef IS_WINDOWS
 #include <windows.h>
 #endif
-#include "GL/gl.h"
+#include "gl/GL.h"
 #include <stdio.h>
 
 #undef main
