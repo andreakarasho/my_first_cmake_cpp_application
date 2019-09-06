@@ -4,15 +4,30 @@
 #endif
 #include "GL/gl.h"
 #include <stdio.h>
-#include <vector>
 
 #undef main
 
 // https://www.40tude.fr/blog/compile-cpp-code-with-vscode-cmake-nmake/
 
+#define println(s) printf(s"\n")
+
 int main()
 {
-	SDL_Init(SDL_INIT_VIDEO);
+	println("My first workable cmake-cpp app.");
+	println("##################################################");
+	println();
+	println();
+	printf("Initializing SDL...");
+
+	if (SDL_Init(SDL_INIT_VIDEO) != 0)
+	{
+		println();
+		println("[ERROR]: failed to initialize SDL!\nPress a key to exit...");
+		getchar();
+		return 1;
+	}
+
+	printf("done!");
 
 	SDL_Window *window = SDL_CreateWindow(
 		"My first cpp-cmake application",
@@ -22,16 +37,12 @@ int main()
 		480,
 		SDL_WINDOW_OPENGL | SDL_WINDOW_RESIZABLE);
 
-	std::vector<int> vec;
-	vec.push_back(1);
-
 	SDL_GL_SetAttribute(SDL_GL_DOUBLEBUFFER, 1);
 
 	SDL_GLContext context = SDL_GL_CreateContext(window);
 
 	bool running = true;
 
-	printf("My first workable cmake-cpp app.");
 
 	while (running)
 	{
