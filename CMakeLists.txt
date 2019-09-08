@@ -19,6 +19,7 @@ if (MSVC OR MSYS OR MINGW)
         set(DEP_LIB_DIR  "${DEP_INCLUDE_DIR}/SDL2/vc/lib/${ARCH}")
         set(SDL2_INCLUDE_DIRS "${DEP_INCLUDE_DIR}/SDL2/vc/include")
         set(SDL2_LIBRARIES "${DEP_LIB_DIR}/SDL2.lib" "${DEP_LIB_DIR}/sdl2main.lib")
+        set(SDL2_DLL_PATH "${DEP_LIB_DIR}/SDL2.dll")
 
         ADD_DEFINITIONS("-DIS_WINDOWS=1")
     else()
@@ -27,6 +28,7 @@ if (MSVC OR MSYS OR MINGW)
         set(DEP_LIB_DIR  "${DEP_INCLUDE_DIR}/SDL2/mingw/lib")
         set(SDL2_INCLUDE_DIRS "${DEP_INCLUDE_DIR}/SDL2/mingw/include/SDL2")
         set(SDL2_LIBRARIES "${DEP_LIB_DIR}/libSDL2.dll.a" "${DEP_LIB_DIR}/libSDL2main.a")
+        set(SDL2_DLL_PATH "${DEP_INCLUDE_DIR}/SDL2/mingw/bin/SDL2.dll")
 
         ADD_DEFINITIONS("-DIS_WINDOWS=0")
     endif()
@@ -51,3 +53,6 @@ file(
 
 add_executable (${PROJECT_NAME} ${MY_SOURCE_FILES})
 target_link_libraries(Test ${OPENGL_LIBRARIES} ${SDL2_LIBRARIES})
+
+add_custom_command(TARGET Test POST_BUILD COMMAND ${CMAKE_COMMAND} -E copy ${SDL2_DLL_PATH} $<TARGET_FILE_DIR:Test>)
+
