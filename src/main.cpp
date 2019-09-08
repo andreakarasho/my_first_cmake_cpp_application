@@ -7,8 +7,6 @@
 
 #undef main
 
-// https://www.40tude.fr/blog/compile-cpp-code-with-vscode-cmake-nmake/
-
 #define println(s) printf(s"\n")
 
 int main()
